@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanieBe</title>
+    <link rel="icon" href="imagenes/Recurso-1.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="background-overlay">
+    <nav>
+        <img src="imagenes/Recurso 2.svg" alt="Logo" class="daniebe" />
+        <div class="nav-links">
+            <a href="toggleBio" id="toggleBio">Sobre mi</a>
+            <a href="https://www.behance.net/daniebe">Behance</a>
+            <a href="https://www.instagram.com/danie_be__/">Instagram</a>
+        </div>
+
+    </nav>
+    <div id="bioPopup" class="bio-popup">
+        <button id="closeBio" class="close-btn">&times;</button>
+        <div class="container text-center">
+                <div><img src="imagenes/perfil.png" /></div>
+                <h2>¿Quién Soy?</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p>Soy <b>Danie Be</b>, una diseñora gráfico multimedia. Me considero una
+                        persona <i>flexible, proactiva y formal</i>. Mi estilo se caracteriza por ser minimalista, pero
+                        siempre
+                        añadiendo un toque vintage que hace que mis trabajos tengan personalidad. Me encanta combinar
+                        elementos
+                        modernos con collages que aportan textura. Me encanta la idea de contar historias a través de
+                        imágenes,
+                        movimiento y tipografía; busco que cada proyecto tenga un mensaje claro y memorable.</p>
+                </div>
+                <div class="col-6">
+                    <p> Una de mis fortalezas es mi habilidad para
+                        adaptarme a diferentes herramientas de diseño. Y la capacidad para enfrentar desafíos, aprender
+                        de los
+                        errores y seguir adelante. Por ejemplo, al manejar proyectos complejos o recibir
+                        retroalimentación crítica,
+                        logro mantener una actitud positiva.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="embed-container">
+        <iframe class="embed-frame" src="https://www.behance.net/embed/project/207080679?ilo0=1" allowfullscreen
+            scrolling="no"></iframe>
+        <iframe class="embed-frame" src="https://www.behance.net/embed/project/207085761?ilo0=1" allowfullscreen
+            scrolling="no"></iframe>
+        <iframe class="embed-frame" src="https://www.behance.net/embed/project/206929895?ilo0=1" allowfullscreen
+            scrolling="no"></iframe>
+        <iframe class="embed-frame" src="https://www.behance.net/embed/project/206930561?ilo0=1" allowfullscreen
+            scrolling="no"></iframe>
+    </div>
+    <div class="instagram-container">
+        <iframe class="instagram-embed" src="https://www.instagram.com/reel/DCEsPBsKkrL/embed" allowfullscreen
+            scrolling="no"></iframe>
+        <iframe class="instagram-embed" src="https://www.instagram.com/p/DAmLx_fM_wb/embed" allowfullscreen
+            scrolling="no"></iframe>
+        <iframe class="instagram-embed" src="https://www.instagram.com/p/DA4KPp0xjIo/embed" allowfullscreen
+            scrolling="no"></iframe>
+        <iframe class="instagram-embed" src="https://www.instagram.com/p/DAJ_OY1KHdX/embed" allowfullscreen
+            scrolling="no"></iframe>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <img src="imagenes/Recurso 2.svg" class="daniebe" />
+        </div>
+
+        <div class="footer-center">
+            <p>Contáctame y trabajemos juntos</p>
+        </div>
+        <div class="footer-right">
+            <a href="tel:+50370941811"><img src="imagenes/numero.png" /></a>
+            <a href="mailto:dani.be.creative@gmail.com"><img src="imagenes/correo.png" /></a>
+            <a href="https://www.instagram.com/danie_be__/"><img src="imagenes/intstagram.png"></a>
+            <a href="https://www.behance.net/daniebe"><img src="imagenes/behance.png" /></a>
+        </div>
+    </footer>
+    <script>
+        gsap.from(".fade-in", { opacity: 0, y: -30, duration: 1, stagger: 0.3 });
+    </script>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
